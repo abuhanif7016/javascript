@@ -1,12 +1,12 @@
 // Problem 1
 
-// let age = 20;
+let age = 20;
 
-// if (age >= 18){
-//     console.log("You can Drive");
-// }else{
-//     console.log("you can,t drive")
-// }
+if (age >= 18){
+    console.log("You can Drive");
+}else{
+    console.log("you can,t drive")
+}
 
 
 
@@ -99,3 +99,68 @@
 
 //let marks = 75;
 //console.log(marks >= 70 ? "Pass" : "Fail");
+
+
+
+// for loop
+
+// for (let i = 1; i <= 10; i++){
+//     console.log(i);
+// }
+
+
+
+// String
+
+// let ah = " Abu Hanif ";
+// console.log(ah.length);
+// console.log(ah.toUpperCase())
+//console.log(ah.toLowerCase())
+// console.log(ah);
+//console.log(ah.trim());
+
+
+// let str = "programming";
+// let Vowel = 0;
+// for (let i = 0;i <= str.length; i++); {
+//     if ("aeiou".includes(i))
+//     let ch = str [i].toLowerCase();
+    
+// }
+
+// console.log(Vowel);
+
+
+
+// let str = "programming";
+// let Vowel = 0;
+
+// for (let i = 0; i < str.length; i++) {
+//   let ch = str[i].toLowerCase();
+//   if ("aeiou".includes(ch)) {
+//     Vowel++;
+//   }
+// }
+
+// console.log(Vowel);
+
+
+
+
+
+// let num = 153; // You can change this number
+// let sum = 0;
+// let temp = num;
+// let digits = num.toString().length;
+
+// while (temp > 0) {
+//   let remainder = temp % 10;
+//   sum += remainder ** digits;
+//   temp = Math.floor(temp / 10);
+// }
+
+// if (sum === num) {
+//   console.log(`${num} is an Armstrong number`);
+// } else {
+//   console.log(`${num} is not an Armstrong number`);
+// }
